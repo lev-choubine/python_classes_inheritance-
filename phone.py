@@ -59,7 +59,7 @@ class IPhone(Phone):
             print('Your Phone is locked')
     def charge_phone(self):
         if  self.charger == True:
-            self.battery =+ 10
+            self.battery += 10
             print(f"your battery is at {self.battery} ")
         else: 
             print("You don't have a charger!")
